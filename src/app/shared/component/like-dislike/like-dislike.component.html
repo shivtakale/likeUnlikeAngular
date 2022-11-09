@@ -1,0 +1,14 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-2 mt">
+      <i class="fas fa-thumbs-up display-4" [class.liked]="thumsUp" (click)="onLike()"></i>
+      <span>{{thumsCount}}</span>
+      <i class="fas fa-thumbs-down ml-5 display-4" [class.liked]="thumsDown" (click)="onDislike()"></i>
+    </div>
+  </div>
+</div>
+
+
+<!-- [class.liked]="thumpsDown" (click)="ondislike()" -->
+<!-- [class.liked]="thumpsUp" (click)="onlike()" -->

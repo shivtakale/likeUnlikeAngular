@@ -1,0 +1,12 @@
+<!-- <p>heart works!</p> -->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="img">
+      <i class=" display-4 fa-solid fa-heart"
+      [class.liked]="isLike" (click)="onclick()"></i>
+      <p>{{isCount}}</p>
+    </div>
+  </div>
+</div>
+
